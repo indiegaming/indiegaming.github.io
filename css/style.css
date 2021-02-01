@@ -1,3 +1,16 @@
+  @font-face {
+    font-family: 'Pacifico';
+    font-style: normal;
+    src: local('Pacifico'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    font-display: swap;
+  }
+  @font-face {
+    font-family: 'Dosis';
+    font-style: normal;
+    src: local('Dosis'), local('Dosis-Regular'), url(https://fonts.gstatic.com/s/dosis/v19/HhyJU5sn9vOmLxNkIwRSjTVNWLEJN7Ml2xMEbK0UPg.woff2) format('woff2');
+    font-display: swap;
+  }
+
   body{
     font: 15px/1.5 'Dosis', sans-serif;
     padding: 0;
@@ -17,7 +30,7 @@
     padding: 0;
   }
 
-  /* Header **/
+  /* Header */
   header{
     background: #00838F;
     color: #fff;
@@ -160,7 +173,7 @@
     overflow: hidden;
   }
   .section span{
-    font-family: 'Pacifico', cursive;
+    font-family: 'Dosis', cursive;
     font-size: 30px;
   }
   .section:target{
